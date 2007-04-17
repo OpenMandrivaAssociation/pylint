@@ -14,6 +14,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	python-logilab-common >= 0.13.0
 Requires:	python-logilab-astng >= 0.14.0
 Requires:	tkinter
+BuildRequires:	python-devel
 BuildArch:	noarch
 
 %description 
