@@ -60,3 +60,7 @@ more. One can easily extend PyLint with plugins.
 %_mandir/man1/pylint.*
 %py_sitedir/pylint/*
 %exclude %py_sitedir/pylint/test*
+%if "%py_ver" == "2.5"
+%py_sitedir/*.egg-info
+%endif
+
