@@ -1,6 +1,6 @@
 %define name	pylint
 %define version 0.14.0
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary: 	Extensible Python source code checker
 Name:		%{name}
