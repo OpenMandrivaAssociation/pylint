@@ -1,6 +1,6 @@
 %define name	pylint
-%define version 0.14.0
-%define release %mkrel 4
+%define version 0.15.2
+%define release %mkrel 1
 
 Summary: 	Extensible Python source code checker
 Name:		%{name}
@@ -14,8 +14,8 @@ BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	python-logilab-common >= 0.19.0
 Requires:	python-logilab-astng >= 0.16.1
 Requires:	tkinter
-BuildRequires:	python-devel
 BuildArch:	noarch
+%py_requires -d
 
 %description 
 PyLint is an extensible tool for checking whether Python
