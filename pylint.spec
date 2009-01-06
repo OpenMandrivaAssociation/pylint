@@ -1,6 +1,6 @@
 %define name	pylint
 %define version 0.15.2
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary: 	Extensible Python source code checker
 Name:		%{name}
@@ -57,7 +57,4 @@ more. One can easily extend PyLint with plugins.
 %_mandir/man1/pylint.*
 %py_sitedir/pylint/*
 %exclude %py_sitedir/pylint/test*
-%if "%py_ver" == "2.5"
 %py_sitedir/*.egg-info
-%endif
-
