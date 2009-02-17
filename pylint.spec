@@ -1,12 +1,12 @@
 %define name	pylint
-%define version 0.15.2
-%define release %mkrel 2
+%define version 0.16.0
+%define release %mkrel 1
 
 Summary: 	Extensible Python source code checker
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
-Source0:	%{name}-%{version}.tar.lzma
+Source0:	%{name}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/
@@ -17,7 +17,7 @@ Requires:	tkinter
 BuildArch:	noarch
 %py_requires -d
 
-%description 
+%description
 PyLint is an extensible tool for checking whether Python
 code satisfies a specified coding standard. It is similar to PyChecker
 insofar that it can perform nearly all tests supported by
