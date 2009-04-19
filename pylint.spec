@@ -1,5 +1,5 @@
 %define name	pylint
-%define version 0.16.0
+%define version 0.18.0
 %define release %mkrel 1
 
 Summary: 	Extensible Python source code checker
@@ -11,8 +11,8 @@ License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires:	python-logilab-common >= 0.19.0
-Requires:	python-logilab-astng >= 0.16.1
+Requires:	python-logilab-common >= 0.39.0
+Requires:	python-logilab-astng >= 0.19.0
 Requires:	tkinter
 BuildArch:	noarch
 %py_requires -d
@@ -56,5 +56,4 @@ more. One can easily extend PyLint with plugins.
 %_sysconfdir/emacs/site-start.d/pylint.el
 %_mandir/man1/pylint.*
 %py_sitedir/pylint/*
-%exclude %py_sitedir/pylint/test*
 %py_sitedir/*.egg-info
