@@ -15,6 +15,7 @@ Requires:	python-logilab-common >= 0.39.0
 Requires:	python-logilab-astng >= 0.19.0
 Requires:	tkinter
 BuildArch:	noarch
+BuildRequires:	python-setuptools
 %py_requires -d
 
 %description
