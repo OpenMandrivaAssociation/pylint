@@ -1,5 +1,5 @@
 %define name	pylint
-%define version 0.18.1
+%define version 0.19.0
 %define release %mkrel 1
 
 Summary: 	Extensible Python source code checker
@@ -51,7 +51,7 @@ more. One can easily extend PyLint with plugins.
 
 %files
 %defattr(-,root,root)
-%doc README COPYING ChangeLog TODO doc/ examples/
+%doc README COPYING ChangeLog doc/ examples/
 %_bindir/*
 %config(noreplace) %_sysconfdir/pylintrc
 %_sysconfdir/emacs/site-start.d/pylint.el
