@@ -1,5 +1,5 @@
 %define name	pylint
-%define version 0.20.0
+%define version 0.21.0
 %define release %mkrel 1
 
 Summary: 	Extensible Python source code checker
@@ -11,8 +11,8 @@ License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Requires:	python-logilab-common >= 0.49.0
-Requires:	python-logilab-astng >= 0.20.0
+Requires:	python-logilab-common >= 0.50.1
+Requires:	python-logilab-astng >= 0.20.1
 Requires:	tkinter
 BuildArch:	noarch
 BuildRequires:	python-setuptools
