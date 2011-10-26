@@ -1,5 +1,5 @@
 %define name	pylint
-%define version 0.24.0
+%define version 0.25.0
 %define release %mkrel 1
 
 Summary: 	Extensible Python source code checker
@@ -9,7 +9,7 @@ Release:	%{release}
 Source0:	http://ftp.logilab.org/pub/%{name}/%{name}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
-Url:		http://www.logilab.org/
+Url:		http://www.logilab.org/project/pylint
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	python-logilab-common >= 0.53.0
 Requires:	python-logilab-astng >= 0.21.1
