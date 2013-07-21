@@ -1,6 +1,6 @@
 Summary: 	Extensible Python source code checker
 Name:		pylint
-Version:	0.26.0
+Version:	0.27.0
 Release:	1
 Source0:	http://ftp.logilab.org/pub/pylint/%{name}-%{version}.tar.gz
 License:	GPLv2+
@@ -159,4 +159,5 @@ more. One can easily extend PyLint with plugins.
 
 * Wed Mar 21 2007 Lev Givon <lev@mandriva.org> 0.13.1-1mdv2007.0
 - Initial Mandriva package.
+
 
