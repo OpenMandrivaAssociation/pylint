@@ -1,18 +1,17 @@
 Summary: 	Extensible Python source code checker
 Name:		pylint
 Version:	0.27.0
-Release:	1
+Release:	2
 Source0:	http://ftp.logilab.org/pub/pylint/%{name}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/project/pylint
-BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires:	python-logilab-common >= 0.53.0
 Requires:	python-logilab-astng >= 0.21.1
 Requires:	tkinter
 BuildArch:	noarch
-BuildRequires:	python-setuptools
-%py_requires -d
+BuildRequires:	python-distribute
+BuildRequires:  python-devel
 
 %description
 PyLint is an extensible tool for checking whether Python
