@@ -41,7 +41,7 @@ more. One can easily extend PyLint with plugins.
 %__install -m 644 ./elisp/pylint.el %{buildroot}%{_sysconfdir}/emacs/site-start.d/
 
 %files
-%doc README COPYING ChangeLog doc/ examples/
+%doc README COPYING ChangeLog  examples/
 %_bindir/*
 %config(noreplace) %_sysconfdir/pylintrc
 %_sysconfdir/emacs/site-start.d/pylint.el
