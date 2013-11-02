@@ -1,8 +1,8 @@
 Summary: 	Extensible Python source code checker
 Name:		pylint
-Version:	0.27.0
-Release:	2
-Source0:	http://ftp.logilab.org/pub/pylint/%{name}-%{version}.tar.gz
+Version:	0.28.0
+Release:	1
+Source0:	http://download.logilab.org/pub/pylint/%{name}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://www.logilab.org/project/pylint
@@ -41,13 +41,13 @@ more. One can easily extend PyLint with plugins.
 %__install -m 644 ./elisp/pylint.el %{buildroot}%{_sysconfdir}/emacs/site-start.d/
 
 %files
-%doc README COPYING ChangeLog doc/ examples/
+%doc README COPYING ChangeLog  examples/
 %_bindir/*
 %config(noreplace) %_sysconfdir/pylintrc
 %_sysconfdir/emacs/site-start.d/pylint.el
 %_mandir/man1/pylint.*
-%py_sitedir/pylint/*
-%py_sitedir/*.egg-info
+%py_puresitedir/pylint/*
+%py_puresitedir/*.egg-info
 
 
 %changelog
@@ -158,5 +158,6 @@ more. One can easily extend PyLint with plugins.
 
 * Wed Mar 21 2007 Lev Givon <lev@mandriva.org> 0.13.1-1mdv2007.0
 - Initial Mandriva package.
+
 
 
