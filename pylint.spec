@@ -1,7 +1,7 @@
 Summary: 	Extensible Python source code checker
 Name:		pylint
 Version:	0.28.0
-Release:	1
+Release:	2
 Source0:	http://download.logilab.org/pub/pylint/%{name}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
