@@ -1,6 +1,2 @@
-removed_sources:
-  pylint-0.25.2.tar.gz: 52b1a671bacc115a953b1e0d423ecbaf9064ce2e
-  pylint-0.26.0.tar.gz: 5dcc07d622b4ff7d5751523fe0161989e463ffe6
-  pylint-0.27.0.tar.gz: c6b04e53c09480646df6fe16c70136a02ba35a7f
 sources:
-  pylint-0.28.0.tar.gz: 285b8babd659a9dd21a782f87db0ae15c29728ef
+  pylint-3.2.2.tar.gz: 58a5f382feb02865c7087ba4b3e6fb6c6b64bd1c
