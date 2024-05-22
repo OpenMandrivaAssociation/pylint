@@ -1,3 +1,5 @@
+%undefine _debugsource_packages
+
 Summary: 	Extensible Python source code checker
 Name:		pylint
 Version:	3.2.2
