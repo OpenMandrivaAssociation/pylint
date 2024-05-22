@@ -8,7 +8,7 @@ Group:		Development/Python
 Url:		http://pylint.org/
 Requires:	tkinter
 BuildArch:	noarch
-BuildRequires:	python(pip)
+BuildRequires:	python%{pyver}dist(pip)
 
 %description
 PyLint is an extensible tool for checking whether Python
