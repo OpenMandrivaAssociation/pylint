@@ -2,15 +2,18 @@
 
 Summary: 	Extensible Python source code checker
 Name:		pylint
-Version:	3.2.2
+Version:	3.2.7
 Release:	1
-Source0:	https://files.pythonhosted.org/packages/0c/4c/b561478a1ccb91e9b02965cb999d2281894d43e68c0bf3777d023af15f11/pylint-3.2.2.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/p/pylint/pylint-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
 Url:		http://pylint.org/
 Requires:	tkinter
 BuildArch:	noarch
 BuildRequires:	python%{pyver}dist(pip)
+
+%patchlist
+https://github.com/pylint-dev/pylint/pull/9851.patch
 
 %description
 PyLint is an extensible tool for checking whether Python
