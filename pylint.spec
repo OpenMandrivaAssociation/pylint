@@ -7,7 +7,7 @@ Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/p/pylint/pylint-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
-Url:		http://pylint.org/
+Url:		https://pylint.org/
 Requires:	tkinter
 BuildArch:	noarch
 BuildRequires:	python%{pyver}dist(pip)
