@@ -3,7 +3,7 @@
 Summary: 	Extensible Python source code checker
 Name:		pylint
 Version:	3.2.7
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/p/pylint/pylint-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Python
